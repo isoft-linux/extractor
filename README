@@ -1,0 +1,15 @@
+extractor
+
+Traverse AVFrame from video file and decode to QImage.
+
+
+Dependence
+
+sudo pacman -S ffmpeg
+
+
+Build
+
+qmake-qt4
+make
+
