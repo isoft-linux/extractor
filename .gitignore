@@ -1,4 +1,5 @@
 *.o
+.qmake.stash
 moc_*
 qrc_*
 ui_*

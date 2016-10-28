@@ -121,7 +121,7 @@
          </font>
         </property>
         <property name="text">
-         <string>VideoExtractor v0.94</string>
+         <string>VideoExtractor v0.95</string>
         </property>
         <property name="alignment">
          <set>Qt::AlignCenter</set>

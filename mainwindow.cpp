@@ -89,7 +89,8 @@ void MainWindow::on_startBtn_clicked()
     enableUi(false);
 
     QUrl url(QDir(savepath).absolutePath());
-    QDesktopServices::openUrl(QUrl("file:///"+url.toString()));
+    //QDesktopServices::openUrl(QUrl("file:///"+url.toString()));
+    QDesktopServices::openUrl(url);
 /*#ifdef Q_WS_WIN
     QProcess::startDetached("explorer.exe",QStringList(savepath.replace("/","\\")));
 #else

@@ -1,7 +1,12 @@
 #ifndef QPROGRESSINDICATOR_H
 #define QPROGRESSINDICATOR_H
 
+#include <QtGlobal>
+#if QT_VERSION >= 0x050000
+#include <QtWidgets/QWidget>
+#else
 #include <QWidget>
+#endif
 #include <QColor>
 
 /*! 

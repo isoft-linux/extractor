@@ -1,8 +1,14 @@
 #ifndef FRAMEDIALOG_H
 #define FRAMEDIALOG_H
 
+#include <QtGlobal>
+#if QT_VERSION >= 0x050000
+#include <QtWidgets/QDialog>
+#include <QtWidgets/QListWidgetItem>
+#else
 #include <QDialog>
 #include <QListWidgetItem>
+#endif
 #include <QList>
 #include <QImage>
 

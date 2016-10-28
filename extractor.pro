@@ -1,14 +1,18 @@
-#-------------------------------------------------
-#
-# Project created by QtCreator 2012-09-29T10:46:05
-#
-#-------------------------------------------------
+QT_VERSION = $$[QT_VERSION]
+QT_VERSION = $$split(QT_VERSION, ".")
+QT_VER_MAJ = $$member(QT_VERSION, 0)
+QT_VER_MIN = $$member(QT_VERSION, 1)
 
 QT       += core gui
+greaterThan(QT_VER_MAJ, 4) {
+    QT += widgets
+}
 
-TARGET = extractor
+TARGET = extractor4
+greaterThan(QT_VER_MAJ, 4) {
+    TARGET = extractor
+}
 TEMPLATE = app
-
 
 SOURCES += main.cpp\
         mainwindow.cpp \

@@ -1,8 +1,14 @@
 #ifndef MAINWINDOW_H
 #define MAINWINDOW_H
 
+#include <QtGlobal>
+#if QT_VERSION >= 0x050000
+#include <QtWidgets/QMainWindow>
+#include <QtWidgets/QListWidgetItem>
+#else
 #include <QMainWindow>
 #include <QListWidgetItem>
+#endif
 #include "extractthread.h"
 #include "framedialog.h"
 #include "framesthread.h"

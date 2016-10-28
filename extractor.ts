@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TS>
-<TS version="2.0" language="zh_CN">
+<TS version="2.1" language="zh_CN">
 <context>
     <name>FrameDialog</name>
     <message>
@@ -14,12 +14,12 @@
         <translation type="unfinished">这张要了</translation>
     </message>
     <message>
-        <location filename="framedialog.cpp" line="62"/>
+        <location filename="framedialog.cpp" line="52"/>
         <source>saved ok</source>
         <translation type="unfinished">保存成功</translation>
     </message>
     <message>
-        <location filename="framedialog.cpp" line="62"/>
+        <location filename="framedialog.cpp" line="52"/>
         <source>Copy successfully!</source>
         <translation type="unfinished">已经成功保存！</translation>
     </message>
@@ -64,17 +64,17 @@
     </message>
     <message>
         <location filename="mainwindow.ui" line="124"/>
-        <source>VideoExtractor v0.94</source>
-        <translation type="unfinished">抓帧神器 v0.94</translation>
+        <source>VideoExtractor v0.95</source>
+        <translation type="unfinished">抓帧神器 v0.95</translation>
     </message>
     <message>
-        <location filename="mainwindow.cpp" line="37"/>
+        <location filename="mainwindow.cpp" line="50"/>
         <source>Open Video</source>
         <oldsource>Open Image</oldsource>
         <translation type="unfinished">打开视频文件</translation>
     </message>
     <message>
-        <location filename="mainwindow.cpp" line="47"/>
+        <location filename="mainwindow.cpp" line="60"/>
         <source>Open Directory</source>
         <translation type="unfinished">打开目录</translation>
     </message>

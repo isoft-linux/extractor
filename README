@@ -10,6 +10,8 @@ sudo pacman -S ffmpeg
 
 Build
 
-qmake-qt4
+lupdate *.cpp *.ui -ts extractor.ts
+lrelease extractor.ts
+qmake
 make
 
